@@ -1,0 +1,1 @@
+("~/holberton-system_engineering-devops/" "~/RSA-Factoring-Challenge/" "~/holbertonschool-low_level_programming/" "~/holbertonschool-higher_level_programming/" "~/hodor/" "~/hipposcraper/" "~/monty/")

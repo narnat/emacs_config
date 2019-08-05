@@ -1,0 +1,128 @@
+gcc -Wall -pedantic -Werror -Wextra 3-main.c 3-add_node_end.c 0-print_list.c -o d
+./d
+betty 3-add_node_end.c 
+betty 3-add_node_end.c 
+git add 3-add_node_end.c 
+git commit -m "Added a function to add a node at the end of a linked list"
+git push
+gcc -Wall -pedantic -Werror -Wextra 4-main.c 4-free_list.c 3-add_node_end.c 0-print_list.c -o e
+./e
+valgrind ./e 
+gcc -Wall -pedantic -Werror -Wextra 4-main.c 4-free_list.c 3-add_node_end.c 0-print_list.c -o e
+./e
+valgrind ./e 
+gcc -Wall -pedantic -Werror -Wextra 4-main.c 4-free_list.c 3-add_node_end.c 0-print_list.c -o e
+./e 
+valgrind ./e
+gcc -Wall -pedantic -Werror -Wextra 4-main.c 4-free_list.c 3-add_node_end.c 0-print_list.c -o e
+./e
+valgrind ./e
+betty 4-free_list.c
+betty 4-free_list.c
+git add 4-free_list.c 
+git commit -m "A function to delete linked list"
+git push
+gcc -Wall -pedantic -Werror -Wextra 100-main.c 100-first.c -o first
+ls
+gcc -Wall -pedantic -Werror -Wextra 100-main.c 100-first.c -o first
+./first 
+gcc -Wall -pedantic -Werror -Wextra 100-main.c 100-first.c -o first
+./first 
+gcc -Wall -pedantic -Werror -Wextra 100-main.c 100-first.c -o first
+./first 
+gcc -Wall -pedantic -Werror -Wextra 100-main.c 100-first.c -o first
+./first 
+betty 100-first.c 
+betty 100-first.c
+betty 100-first.c
+gcc -Wall -pedantic -Werror -Wextra 100-main.c 100-first.c -o first
+./first 
+git add 100-first.c 
+git commit -m "How to print a text before the main function"
+git push
+alias -p
+alias -p
+alias
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+./hello 
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+./hello 
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+./hello 
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+./hello 
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+./hello 
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+./hello 
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+./hello 
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+./hello 
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+./hello 
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+./hello 
+nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+./hello 
+./hello | cat -e
+betty 101-hello_holberton.asm
+git status
+git add 100-first.c 
+git push
+git add 101-hello_holberton.asm
+git commmit -m "Prints Hello, Holberton in assembly"
+git commit -m "Prints Hello, Holberton in assembly"
+git push
+gcc -Wall -pedantic -Werror -Wextra 4-main.c 4-free_list.c 3-add_node_end.c 0-print_list.c -o e
+./e
+gcc -Wall -pedantic -Werror -Wextra 4-main.c 4-free_list.c 3-add_node_end.c 0-print_list.c -o e
+./e 
+gcc -Wall -pedantic -Werror -Wextra 4-main.c 4-free_list.c 3-add_node_end.c 0-print_list.c -o e
+./e
+valgrind ./e
+betty 4-free_list.c
+git add 4-free_list.c 
+git add 4-free_list.c 
+git commit -m "Frees linked list"
+git push
+gcc -Wall -pedantic -Werror -Wextra 4-main.c 4-free_list.c 3-add_node_end.c 0-print_list.c -o e
+./e 
+valgrind ./e
+gcc -Wall -pedantic -Werror -Wextra 4-main.c 4-free_list.c 3-add_node_end.c 0-print_list.c -o e
+./e 
+gcc -Wall -pedantic -Werror -Wextra 4-main.c 4-free_list.c 3-add_node_end.c 0-print_list.c -o e
+./e
+valgrind ./e
+gcc -Wall -pedantic -Werror -Wextra 4-main.c 4-free_list.c 3-add_node_end.c 0-print_list.c -o e
+./e 
+valgrind ./e 
+gcc -Wall -pedantic -Werror -Wextra 4-main.c 4-free_list.c 3-add_node_end.c 0-print_list.c -o e
+./e
+valg ./e
+valgrind ./e
+git add 4-free_list.c
+git commit -m "Handled the case when list is empty"
+git push
+gcc -Wall -pedantic -Werror -Wextra 0-main.c 0-print_listint.c -o a
+./a 
+gcc -Wall -pedantic -Werror -Wextra 0-main.c 0-print_listint.c -o a
+./a 
+betty 0-print_listint.c 
+gg 0-print_listint.c "Prints data part of a linked list"
+source ~/.bashrc 
+source ~/.bashrc 
+gg 0-print_listint.c "Prints data part of a linked list"
+gcc -Wall -pedantic -Werror -Wextra 0-main.c 0-read_textfile.c -o a
+gcc main.c 
+./a.out 
+pylint 
